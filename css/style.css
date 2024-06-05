@@ -149,10 +149,10 @@ img {
 
 @media screen and (max-width: 480px){
     h1{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     h2{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .lessons .col{
         width: 100%;
@@ -163,4 +163,21 @@ img {
     .steps .col{
         width: 100%;
     }
+    .steps{
+        margin: 0 auto;
+    }
+}
+/* section why-us  */
+@media screen and (max-width: 480px){
+    .why-us{
+        margin-bottom: 0px;
+        background-color: rgba(33, 33, 33, 0.837);
+    }
+    .why-us .col{
+        width: 100%;
+    }
+    .why-us h2{
+        margin-top: 50px;
+    }
+
 }
